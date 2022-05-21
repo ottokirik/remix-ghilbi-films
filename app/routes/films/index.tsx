@@ -1,7 +1,7 @@
 import type { LoaderFunction, MetaFunction } from '@remix-run/node';
 import { fetchAllFilms } from '~/api';
 
-import { useLoaderData } from '@remix-run/react';
+import { Link, useLoaderData } from '@remix-run/react';
 
 import type { Film } from '~/api';
 import { SearchForm } from '~/components/search-form';
@@ -27,10 +27,16 @@ const FilmsIndex = () => {
 
       <div className="grid grid-cols-4 gap-4">
         {films.map((film) => (
-          <div key={film.id} className="hover:shadow-2xl hover:scale-105 cursor-pointer transition-all">
+          <Link
+            to={film.id}
+            key={film.id}
+            title={film.title}
+            className="hover:shadow-2xl hover:scale-105 cursor-pointer transition-all"
+            prefetch="intent"
+          >
             <div>{film.title}</div>
             <img src={film.image} alt={film.title} />
-          </div>
+          </Link>
         ))}
       </div>
     </div>
