@@ -9,6 +9,7 @@
     "build:css": "tailwindcss -o ./app/tailwind.css",
     "dev:remix": "remix dev",
     "dev:css": "tailwindcss -o ./app/tailwind.css --watch",
+    "dev:server": "json-server --watch db.json --port 4000",
     "dev": "concurrently \"npm run dev:*\"",
     "start": "remix-serve build"
   },
@@ -18,6 +19,7 @@
     "@remix-run/serve": "^1.5.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-loader-spinner": "^6.0.0-0",
     "tiny-invariant": "^1.2.0"
   },
   "devDependencies": {
@@ -27,6 +29,7 @@
     "@types/react-dom": "^17.0.17",
     "concurrently": "^7.2.0",
     "eslint": "^8.15.0",
+    "json-server": "^0.17.0",
     "tailwindcss": "^3.0.24",
     "typescript": "^4.6.4"
   },

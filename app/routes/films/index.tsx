@@ -21,7 +21,9 @@ const FilmsIndex = () => {
 
   return (
     <div className="p-16 font-sans">
-      <h1 className="text-5xl font-bold text-center">Studio Ghibli Films</h1>
+      <Link to="/films">
+        <h1 className="text-5xl font-bold text-center">Studio Ghibli Films</h1>
+      </Link>
 
       <SearchForm />
 

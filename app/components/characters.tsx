@@ -5,7 +5,7 @@ type CharacterListProps = {
   characters?: FilmCharacter[];
 };
 
-const CharacterList = ({ characters }: CharacterListProps) => {
+const Character = ({ characters }: CharacterListProps) => {
   return (
     <div className="flex-1 max-w-md">
       <h3 className="text-3xl">Characters</h3>
@@ -31,4 +31,4 @@ const CharacterList = ({ characters }: CharacterListProps) => {
   );
 };
 
-export default CharacterList;
+export default Character;

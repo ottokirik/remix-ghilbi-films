@@ -1,0 +1,46 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "name": "Marius",
+      "message": "yoooo soo good!!",
+      "filmId": "58611129-2dbc-4a81-a72f-77ddfc1b1b49"
+    },
+    {
+      "id": 2,
+      "name": "Marius",
+      "message": "some comment",
+      "filmId": "58611129-2dbc-4a81-a72f-77ddfc1b1b49"
+    },
+    {
+      "name": "Кирилл",
+      "message": "Very nice",
+      "filmId": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+      "id": 3
+    },
+    {
+      "name": "Test",
+      "message": "test message",
+      "filmId": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+      "id": 4
+    },
+    {
+      "name": "Test",
+      "message": "test2 message",
+      "filmId": "2baf70d1-42bb-4437-b551-e5fed5a87abe",
+      "id": 5
+    },
+    {
+      "name": "TEST",
+      "message": "MESSAGE",
+      "filmId": "dc2e6bd1-8156-4886-adff-b39e6043af0c",
+      "id": 6
+    },
+    {
+      "name": "TEST 2",
+      "message": "MESSAGE",
+      "filmId": "dc2e6bd1-8156-4886-adff-b39e6043af0c",
+      "id": 7
+    }
+  ]
+}
